@@ -1,0 +1,39 @@
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 24px;
+	
+	position: relative;
+	} 
+#buttonScroll {
+	position: fixed;
+	left: 40px;
+	bottom: 40px;
+	transition: opacity 0.5s;
+
+	&:hover {
+		opacity: 0.5;
+	}
+	display: none;
+}	
+.section {
+background-color: #888;
+height: 300px;
+width: 400px;
+
+margin-bottom: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+
+
+
+
